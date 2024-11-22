@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: white;
+  }
+  nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+  }
+  nav ul li a{
+    text-decoration: none;
+    
+  }
+  nav ul li a:hover{
+    color: rgb(135, 52, 52);
+    border-bottom: 1px solid #e04530;
+  }
+  .herocontainer{
+    background-color: whitesmoke;
+    margin: 20px;
+   
+  }
+  .head{
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px;
+    padding: 10px;
+  }
+  .p{
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .but{
+    background-color: #00208a;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 10px 15px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px;
+  }
+
+  .hero{
+    margin: 30px;
+    font-size: 40px;
+  }
+  .herocontainer-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+   
+    
+  }
+  .card{
+    margin: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    justify-content: center;
+    display: flex;
+    margin-right: 30px;
+   
+  }
+  .topic{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .starting{
+    color: rgb(163, 163, 163, 0.719);
+    margin: 10px 0px;
+    font-size: 15px;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    }
+  .but2{
+    color: black;
+    border: none;
+    padding: none;
+    margin: none;
+    width: 100px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(30, 30, 152);
+    padding-bottom: 20px;
+    margin: 10px 0px;
+  }
+  .card{
+    margin: 40px;
+    padding: 10px;
+  }
+  .card-2{
+    margin: 40px;
+    padding: 10px;
+  }
+  .card-3{
+    justify-content: center;
+  
+   align-items: center;
+  }
+  .sub{
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  .time{
+    margin: 10px 0px;
+    font-size: 15px;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(69, 69, 121)
+    
+
+  }

@@ -1,0 +1,29 @@
+*{
+    margin-left: 45px;
+    margin-right: 70px;
+}
+.h3link{
+    background-color: red;
+    color: red;
+}
+.but1{
+    background-color: red;
+    color: white;
+     border: white;
+     padding: 10px;
+     height: 40px;
+     width: 100px;
+     border-radius: 20%;
+}
+.but2{
+    margin: -4%;
+    background-color: black;
+    color: white;
+    border-color: aliceblue;
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+}
+.but3{
+    
+}

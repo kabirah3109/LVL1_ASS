@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.herocontainer {
+  height: 100px;
+}
+.opt {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.search-input {
+  border: 1px solid rgb(255, 255, 255);
+  width: 350px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.search-input:focus {
+  outline: 1px solid rgb(255, 255, 255);
+}
+
+.but {
+  background-color: rgb(246, 139, 30);
+  color: white;
+  border: white;
+  padding: 10px;
+  margin: 10px;
+}
+.img-container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-button-link {
+  display: flex;
+  align-items: right;
+  flex-direction: row;
+  gap: 20px;
+}
+.others{
+    background-color: white;
+    padding-right: 24px;
+    border-radius: 10px;
+}
+.others p{
+   margin: 10px;
+   margin-bottom: 10px;
+   
+}
+.deals{
+    
+}
+.deals p{
+    background-color: white;
+    padding: 20px;
+}
+.nav-button-link p:hover{
+   color: orange;
+}
+.main-container{
+    padding: 30px;
+    background-image: url(/IMAGE/BG_TAKEOVER_WORKERS_WEEK_2024.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 8px 9px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 12px;
+}
+.orange-card {
+}
+.orange-card img {
+  height: 200px;
+  width: 100%;
+  border-radius: 8px;
+}
+.text-center{
+    text-align: center;
+}
